@@ -1,3 +1,6 @@
+CREATE database computerComp;
+use computerComp;
+
 CREATE TABLE IF NOT EXISTS RAM (
     id INT AUTO_INCREMENT PRIMARY KEY,
     brand VARCHAR(255),
