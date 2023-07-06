@@ -1,0 +1,35 @@
+<form action="calculate_cost.php" method="POST">
+    <h2>Computer Build Options</h2>
+    
+    <!-- Base Model -->
+    <label>
+      <input type="radio" name="baseModel" value="1000"> Base Model ($1000)
+    </label>
+    
+    <!-- Choices -->
+    <h3>Additional Choices</h3>
+    
+    <label>
+      <input type="checkbox" name="ram" value="100"> RAM (+$100)
+    </label>
+    
+    <label>
+      <input type="checkbox" name="storage" value="200"> HDD/Storage (+$200)
+    </label>
+    
+    <label>
+      <input type="checkbox" name="screen" value="300"> Screen (+$300)
+    </label>
+    
+    <label>
+      <input type="checkbox" name="graphicsCard" value="400"> Graphics Card (+$400)
+    </label>
+    
+    <!-- Displayed Cost -->
+    <h3>Total Cost:</h3>
+    <p id="totalCost">$1000</p>
+    
+    <!-- Submit button -->
+    <input type="submit" value="Calculate Cost">
+  </form>
+  
